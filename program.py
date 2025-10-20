@@ -1,5 +1,6 @@
 import account_model
 import user_model
+import house
 
 def main_menu():
   while True:
@@ -11,7 +12,13 @@ def main_menu():
     print("5. Transfer")
     print("6. Details")
     print("7. Check Balance")
-    print("8. Exist")
+    print("8. Add Apartment")
+    print("9. Rent Apartment")
+    print("10. View Available Apartment")
+    print("11. View Rented Apartment")
+    print("12. View All Apartment")
+    print("13. Find By Price")
+    print("14. Exist")
 
     choice = input("Enter your choice: ")
     if choice == "1":
@@ -38,6 +45,18 @@ def main_menu():
       else:
         print("User not found")
     elif choice == "8":
+      house.add_house()
+    elif choice == "9":
+      house.rent_apartment()
+    elif choice == "10":
+      house.available_apartment()
+    elif choice == "11":
+      house.rented_apartment()
+    elif choice == "12":
+      house.view_all_apartment() 
+    elif choice == "13":
+      house.find_house_by_price() 
+    elif choice == "14":
       print("Thanks For Using Our BankApp!")
     else:
       print("Invalid Choice")
