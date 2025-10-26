@@ -21,7 +21,11 @@ def main_menu():
     print("11. View Rented Apartment")
     print("12. View All Apartment")
     print("13. Find By Price")
-    print("14. Exist")
+    print("14. Get User By Id")
+    print("15. Get All Users")
+    print("16. Update Profile")
+    print("17. Delete Profile")
+    print("18. Exist")
 
     choice = input("Enter your choice: ")
     if choice == "1":
@@ -60,6 +64,14 @@ def main_menu():
     elif choice == "13":
       apartment.find_house_by_price() 
     elif choice == "14":
+      usr.get_user_by_id()
+    elif choice == "15":
+      usr.get_all_users()
+    elif choice == "16":
+      usr.update_user()
+    elif choice == "17":
+      usr.delete_user()
+    elif choice == "18":
       print("Thanks For Using Our BankApp!")
     else:
       print("Invalid Choice")

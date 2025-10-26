@@ -1,0 +1,12 @@
+[
+    {
+        "id": 397,
+        "full_name": "Ade Bayo",
+        "email": "ade@gmail.com",
+        "phone_number": "123456789",
+        "password": "1234",
+        "account_number": 1826095565,
+        "balance": 0,
+        "login_status": false
+    }
+]
