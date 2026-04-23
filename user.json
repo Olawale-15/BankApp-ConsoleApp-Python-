@@ -11,12 +11,22 @@
     },
     {
         "id": 275,
-        "full_name": "Abdus-Salaam Abdul-Qayyum",
-        "email": "pako@gmail.com",
-        "phone_number": "09138888736",
+        "full_name": "Lamine Yamal",
+        "email": "lamyamal@gmail.com",
+        "phone_number": "536645536645",
         "password": "12345",
         "account_number": 1594944474,
-        "balance": 16000.0,
+        "balance": 716000.0,
+        "login_status": true
+    },
+    {
+        "id": 902,
+        "full_name": "Ad ss",
+        "email": "as@gmail.com",
+        "phone_number": "33334444",
+        "password": "12345",
+        "account_number": 2919493402,
+        "balance": 2000000.0,
         "login_status": false
     }
 ]

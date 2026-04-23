@@ -66,9 +66,10 @@ class Apartment:
          with open(user_model.USER_FILE, "r") as a:
             users = json.load(a)
          #  Find the user with this id
+         user_id = int(input("Enter User Id: "))
          found_users = None
      for user in users:
-         if user["login_status"] == True:
+         if user["id"] == user_id:
            found_users = user
            break
      if found_users == None:

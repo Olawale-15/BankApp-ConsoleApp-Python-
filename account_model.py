@@ -52,7 +52,7 @@ class Account:
                 found_user["balance"] -= amount
                 with open(user_model.USER_FILE, "w") as d:
                     json.dump(users, d, indent=4)
-                print(f"#{amount} was debi+ted f+rom your account. New balance is #{found_user['balance']}")
+                print(f"#{amount} was debited f+rom your account. New balance is #{found_user['balance']}")
 
 
     def transfer(self):
